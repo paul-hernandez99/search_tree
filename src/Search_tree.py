@@ -41,7 +41,7 @@ class Node:
         self.action = a
 
 
-def depth_search_ltr(first_state, goal):
+def depth_search_ltr(graph, first_state, goal):
     print("Depth_search (from left to right):\n")
     frontier = []
     path = []
@@ -70,7 +70,7 @@ def depth_search_ltr(first_state, goal):
     print("depth: ",current_depth)
     print("-----\n\n")
 
-def depth_search_rtl(first_state, goal):
+def depth_search_rtl(graph, first_state, goal):
     print("Depth_search (from right to left):\n")
     frontier = []
     path = []
@@ -99,7 +99,7 @@ def depth_search_rtl(first_state, goal):
     print("depth: ",current_depth)
     print("-----\n\n")
 
-def breadth_search_rtl(first_state, goal):
+def breadth_search_rtl(graph, first_state, goal):
     print("Breadth_search (from right to left):\n")
     frontier = []
     path = []
@@ -128,7 +128,7 @@ def breadth_search_rtl(first_state, goal):
     print("depth: ",current_depth)
     print("-----\n\n")
 
-def breadth_search_ltr(first_state, goal):
+def breadth_search_ltr(graph, first_state, goal):
     print("Breadth_search (from left to right):\n")
     frontier = []
     path = []
@@ -184,7 +184,7 @@ def getSuccessor_reverse(node, frontier, current_cost, current_depth):
         frontier.append(successor)
 
 
-depth_search_ltr('origen','O')
-depth_search_rtl('origen','O')
-breadth_search_rtl('origen','O')
-breadth_search_ltr('origen','O')
+depth_search_ltr(graph, 'origen','O')
+depth_search_rtl(graph, 'origen','O')
+breadth_search_rtl(graph, 'origen','O')
+breadth_search_ltr(graph, 'origen','O')
