@@ -24,4 +24,4 @@ Here we can see the different paths that each method has followed and the associ
 
 ![](docs/2.png)
 
-As we can see, in this concrete case, the ***depth search*** from right to left is the most efficient search method.
+As we can see, in this concrete case, the ***depth search from right to left*** is the most efficient search method.
