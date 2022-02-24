@@ -5,12 +5,15 @@ Given a specific tree, starting from the root node ***'origen'***, the purpose i
 ![](docs/tree.png)
 
 We are going to analyse 2 different methods:
-* **Deapth-Search** (lifo stack):
+* **Deapth-Search** (lifo stack): https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_profundidad
   * from left to right
   * from right to left
-* **Breadth-Search** (fifo stack):
-  * from right to left
+* **Breadth-Search** (fifo stack): https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_anchura
   * from left to right
+  * from right to left
+* **Iterative-Deepen Search** (Combination of both): https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search
+  * from left to right
+  * from right to left
 And we are going to compare the cost differences between the proposed methods.
 The cost of a method is defined by the number of nodes that are visited until the goal node is achieved.
 
